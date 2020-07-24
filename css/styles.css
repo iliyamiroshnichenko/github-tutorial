@@ -1,0 +1,82 @@
+body {
+  background-color: #fff;
+  color: #2a2a2a;
+}
+
+.text {
+  color: blue;
+  background-color: rgba(0, 255, 0, 0.1);
+}
+
+.notification {
+  font-weight: 500;
+}
+
+.success {
+  color: green;
+}
+
+.warning {
+  color: orange;
+}
+
+.error {
+  color: red;
+}
+
+#another-shit {
+  color: yellow;
+}
+
+.menu > li {
+  border: 2px solid blue;
+}
+
+a[href="https://cssreference.io"]
+{
+  color: orange;
+}
+
+a[href="https://www.youtube.com"]
+{
+  color: red;
+}
+
+.link {
+  color: teal;
+}
+
+.link:hover {
+  color: orange;
+}
+
+.social-links .link {
+  color: teal;
+}
+
+.social-links .link:hover,
+.social-links .link:focus {
+  color: orange;
+}
+
+.social-links .link:active {
+  color: red;
+}
+
+.social-links .link:visited {
+  color: green;
+}
+
+.schedule-body > tr:hover {
+  color: orange;
+}
+
+.schedule {
+  border-collapse: collapse;
+}
+
+.schedule th,
+.schedule td {
+  padding: 8px;
+  border: 1px solid #212121;
+}

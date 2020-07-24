@@ -3,44 +3,109 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Git Rules!</title>
+    <style type="text/css">
+      address {
+        color: rgb(46, 192, 71);
+      }
+    </style>
   </head>
   <body>
-    <h1>Очень крутой заголовок!</h1>
-    <h2>Подзагловок</h2>
-    <ul>
-      <li>1</li>
-      <li>2</li>
-      <li>3</li>
-      <li>4</li>
+    <h1 class="title">Очень крутой заголовок!</h1>
+    <h2 style="color: blue; font-size: 24px;">Подзагловок</h2>
+    <p class="text">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum laborum
+      rerum, rem voluptates consequuntur veritatis sunt inventore. Totam
+      sapiente vero reiciendis laborum a aperiam culpa porro quae? Accusamus,
+      distinctio laboriosam.
+    </p>
+    <h2 id="another-shit">Another shit</h2>
+    <a href="./index.html">Читайте наш блог!</a>
+    <ul class="social-links">
+      <li>
+        <a href="">Twitter</a>
+      </li>
+      <li>
+        <a href="">Instagram</a>
+      </li>
+      <li>
+        <a href="">Facebook</a>
+      </li>
     </ul>
-    <ol>
-      <li>Тренируюсь</li>
-      <li>через Git bash</li>
-    </ol>
-    <p>Формула воды H<sub>2</sub>O</p>
-    <p>Теорема Пифагора a<sup>2</sup>+b<sup>2</sup>=c<sup>2</sup></p>
-    <p>Общая площадь помещения 150м<sup>2</sup>.</p>
-    <p>Решите уравнение a<sup>3</sup>+a<sup>2</sup>=4</p>
+    <p class="notification success">Пополнение счета выполнено</p>
+    <p class="notification warning">Внимание, будут изменены тарифы</p>
+    <p class="notification error">Ошибка проведения транзакции</p>
+    <ul class="menu">
+      <li>
+        Комьютеры и комплектующие
+        <ul class="submenu">
+          <li>Процессоры</li>
+          <li>Мониторы</li>
+          <li>Видеокарты</li>
+        </ul>
+      </li>
+      <li>
+        Бытовая техника
+        <ul class="submenu">
+          <li>Холодильники</li>
+          <li>Телевизоры</li>
+          <li>Стиральные машины</li>
+        </ul>
+      </li>
+      <li>
+        Товары для дома
+        <ul class="submenu">
+          <li>Кресла</li>
+          <li>Матрасы</li>
+          <li>Электрокамины</li>
+        </ul>
+      </li>
+    </ul>
+    <a href="https://htmlreference.io" title="Справочник тегов">
+      htmlreference.io
+    </a>
+    <br />
+    <a href="https://cssreference.io" title="Справочник стилей">
+      cssreference.io
+    </a>
+    <br />
+    <a href="https://www.youtube.com">YouTube</a>
     <p>
-      Последние новости на
-      <time datetime="2020-07-23T19:30">19:30</time>
+      Отличную шпаргалку по тегам можно найти
+      <a href="https://htmlreference.io" class="link">по ссылке</a>
     </p>
-    <p>
-      Используйте тег &lt;strong&gt; для выделения текста
-    </p>
-    <address>
-      г. Славянск <br />
-      ул. Королёва 26/21
-    </address>
-    <address>
-      <a href="mailto:iliyamiroshnichenko88@gmail.com"
-        >iliyamiroshnichenko88@gmail.com</a
-      >
-      <a href="tel:+380993533451">+380993533451</a>
-    </address>
-    <p>Все права защищены &copy; Lpj, 2020</p>
-    <p>Все права защищены &#169; Lpj, 2020</p>
-    <p>Все права защищены &#xa9; Lpj, 2020</p>
+    <ul class="social-links">
+      <li><a href="https://twitter.com" class="link">Twitter</a></li>
+      <li><a href="https://www.instagram.com" class="link">Instagram</a></li>
+      <li><a href="https://www.facebook.com" class="link">Facebook</a></li>
+    </ul>
+    <table class="schedule">
+      <thead>
+        <tr>
+          <th>Номер</th>
+          <th>Маршрут</th>
+          <th>Время в пути</th>
+        </tr>
+      </thead>
+      <tbody class="schedule-body">
+        <tr>
+          <td>433</td>
+          <td>Киев - Ковель</td>
+          <td>5 часов</td>
+        </tr>
+        <tr>
+          <td>701</td>
+          <td>Харьков - Днепр</td>
+          <td>7 часов</td>
+        </tr>
+        <tr>
+          <td>258</td>
+          <td>Львов - Одесса</td>
+          <td>4 часа</td>
+        </tr>
+      </tbody>
+    </table>
+    <article>
   </body>
 </html>
