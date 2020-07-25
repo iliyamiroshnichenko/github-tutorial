@@ -1,82 +1,41 @@
+.post {
+  color: yellowgreen;
+}
+
+.post-link {
+  color: inherit;
+}
+
 body {
-  background-color: #fff;
-  color: #2a2a2a;
+  background-color: rgba(228, 149, 149, 20%);
 }
-
-.text {
-  color: blue;
-  background-color: rgba(0, 255, 0, 0.1);
-}
-
-.notification {
-  font-weight: 500;
-}
-
-.success {
-  color: green;
-}
-
-.warning {
-  color: orange;
-}
-
-.error {
-  color: red;
-}
-
-#another-shit {
-  color: yellow;
-}
-
-.menu > li {
-  border: 2px solid blue;
-}
-
-a[href="https://cssreference.io"]
-{
-  color: orange;
-}
-
-a[href="https://www.youtube.com"]
-{
-  color: red;
+.sec {
+  text-align: center;
 }
 
 .link {
-  color: teal;
+  text-align: center;
+  background-color: #fff;
+  display: inline-block;
+  width: 100px;
 }
 
 .link:hover {
-  color: orange;
+  color: whitesmoke;
+  background-color: red;
+  font-style: italic;
 }
 
-.social-links .link {
-  color: teal;
+.header {
+  text-align-last: center;
+  border: 2px dashed #d8f;
 }
 
-.social-links .link:hover,
-.social-links .link:focus {
-  color: orange;
+.ptext {
+  background-color: hotpink;
+  text-align: justify;
 }
 
-.social-links .link:active {
-  color: red;
-}
-
-.social-links .link:visited {
-  color: green;
-}
-
-.schedule-body > tr:hover {
-  color: orange;
-}
-
-.schedule {
-  border-collapse: collapse;
-}
-
-.schedule th,
-.schedule td {
-  padding: 8px;
-  border: 1px solid #212121;
+.upper {
+  text-transform: uppercase;
 }
